@@ -327,7 +327,7 @@ html {
 }
 
 .Card-container {
-  background: $whiteBG;
+  background: $white;
   border-radius: 20px;
 
   box-shadow: $shadow3;
@@ -454,7 +454,7 @@ html {
   }
 
   .Card-2 {
-    background: url("/images/Phone2.jpg");
+    background: url("/images/Phone3.jpg");
     background-size: cover;
   }
 
@@ -528,7 +528,7 @@ html {
   .Card-container {
     border-radius: 20px;
 
-    transform: translateY(110%) translateX(5%);
+    transform: translateY(110%) translateX(0%);
 
     padding: 2rem 1rem;
   }
@@ -573,7 +573,7 @@ html {
   }
 
   .Card-container {
-    transform: translateY(80%) translateX(5%);
+    transform: translateY(80%) translateX(0%);
     padding: 2rem 10px;
   }
 

@@ -510,7 +510,7 @@ html {
 }
 
 .Card-container {
-  background: #f8f8f8;
+  background: whitesmoke;
   border-radius: 20px;
   -webkit-box-shadow: 15px 10px 5px -10px rgba(30, 30, 60, 0.4);
           box-shadow: 15px 10px 5px -10px rgba(30, 30, 60, 0.4);
@@ -645,7 +645,7 @@ html {
     background-size: cover;
   }
   .Card-2 {
-    background: url("/images/Phone2.jpg");
+    background: url("/images/Phone3.jpg");
     background-size: cover;
   }
   .Card-3 {
@@ -714,8 +714,8 @@ html {
   }
   .Card-container {
     border-radius: 20px;
-    -webkit-transform: translateY(110%) translateX(5%);
-            transform: translateY(110%) translateX(5%);
+    -webkit-transform: translateY(110%) translateX(0%);
+            transform: translateY(110%) translateX(0%);
     padding: 2rem 1rem;
   }
   .Card-title {
@@ -756,8 +756,8 @@ html {
     margin: 10rem 2rem 5rem 2rem;
   }
   .Card-container {
-    -webkit-transform: translateY(80%) translateX(5%);
-            transform: translateY(80%) translateX(5%);
+    -webkit-transform: translateY(80%) translateX(0%);
+            transform: translateY(80%) translateX(0%);
     padding: 2rem 10px;
   }
   .Card-title {
