@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F8F8F8;}
+	.st1{fill:none;stroke:#7C57EB;stroke-width:10;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#7C1EEB;stroke-width:10;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#2700EB;stroke-width:10;stroke-miterlimit:10;}
+</style>
+<g id="App_line">
+	<g>
+		<path class="st0" d="M181.2,1022.9c-99.3,0-180.1-80.8-180.1-180.1V181.2C1.1,81.9,81.9,1.1,181.2,1.1h661.6
+			c99.3,0,180.1,80.8,180.1,180.1v661.6c0,99.3-80.8,180.1-180.1,180.1H181.2z"/>
+		<path class="st0" d="M842.8,1v0.2c24.3,0,47.9,4.8,70,14.1c21.4,9.1,40.7,22,57.2,38.6c16.5,16.5,29.5,35.8,38.6,57.2
+			c9.4,22.2,14.1,45.7,14.1,70v661.6c0,24.3-4.8,47.9-14.1,70c-9.1,21.4-22,40.7-38.6,57.2c-16.5,16.5-35.8,29.5-57.2,38.6
+			c-22.2,9.4-45.8,14.1-70,14.1H181.2c-24.3,0-47.9-4.8-70-14.1c-21.4-9.1-40.7-22-57.2-38.6c-16.5-16.5-29.5-35.8-38.6-57.2
+			c-9.4-22.2-14.1-45.8-14.1-70V181.2c0-24.3,4.8-47.9,14.1-70C24.5,89.7,37.4,70.5,54,54c16.5-16.5,35.8-29.5,57.2-38.6
+			c22.2-9.4,45.7-14.1,70-14.1h661.6V1 M842.8,1H181.2C81.7,1,1,81.7,1,181.2v661.6C1,942.3,81.7,1023,181.2,1023h661.6
+			c99.5,0,180.2-80.7,180.2-180.2V181.2C1023,81.7,942.3,1,842.8,1L842.8,1z"/>
+	</g>
+</g>
+<circle class="st1" cx="488.3" cy="484.8" r="227"/>
+<circle class="st2" cx="523" cy="485.8" r="228"/>
+<circle class="st3" cx="557.7" cy="484.8" r="228"/>
+</svg>
