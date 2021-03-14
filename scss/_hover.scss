@@ -1,0 +1,15 @@
+@import './base';
+
+.fa-instagram{
+    color: $insta;
+}
+
+.fa-linkedin {
+    color: $linkeden;
+}
+
+.Card-button:hover {
+    a {
+        color: $purple2;
+    }
+}

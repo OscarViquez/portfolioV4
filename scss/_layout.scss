@@ -1,0 +1,790 @@
+@import "_base.scss";
+
+html {
+  scroll-behavior: smooth;
+  background: $whiteBG;
+}
+
+/* __ I n t r o - S e c t i o n ______________________________ */
+
+.Intro {
+  // Spacing
+  text-align: center;
+  padding: 12rem 1rem 10rem;
+
+  color: $black;
+  background: $whiteBG;
+
+  .Intro-name {
+    // Font
+    font-family: $Poppins;
+    font-size: size(large);
+    font-weight: weight(bold);
+  }
+
+  .Intro-job {
+    // Font
+    font-family: $Poppins;
+    font-size: size(med-large);
+    font-weight: weight(bold);
+    // Font Color
+    color: $primary-color;
+    // Spacing
+    margin: 1rem 0;
+  }
+
+  .Intro-details {
+    // Font
+    font-family: $Poppins;
+    font-size: size(medium);
+    font-weight: weight(med-low);
+    // Spacing
+    margin: 1rem 0;
+  }
+
+  .Intro-img {
+    width: 20%;
+    height: auto;
+    // I use Background Colors to visualize the size of the element itself //
+    // background: rgb(219, 240, 223);
+  }
+}
+
+/* ______________ Laptop / iPad Pro Screen Size */
+@media (max-width: 1500px) {
+  .Intro {
+    // Spacing
+    text-align: center;
+    padding: 12rem 1rem 10rem;
+
+    .Intro-name {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(large);
+      font-weight: weight(medium);
+    }
+
+    .Intro-job {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(med-large);
+      font-weight: weight(medium);
+      color: $primary-color;
+      // Spacing
+      margin: 1rem 0rem;
+      // Spacing
+    }
+
+    .Intro-details {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(medium);
+      font-weight: weight(med-low);
+      // Spacing
+      margin: 1rem 0rem;
+    }
+
+    .Intro-img {
+      width: 30%;
+      height: auto;
+    }
+  }
+}
+/* ____________________________ iPad Pro Screen Size */
+@media (max-width: 1250px) {
+  .Intro {
+    // Spacing
+    text-align: center;
+    padding: 12rem 1rem 5rem;
+
+    .Intro-name {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(med-large);
+      font-weight: weight(medium);
+    }
+
+    .Intro-job {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(regular);
+      font-weight: weight(medium);
+      color: $primary-color;
+      // Spacing
+      margin: 1rem 0r 0 0;
+      // Spacing
+    }
+
+    .Intro-details {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(small);
+      font-weight: weight(med-low);
+      // Spacing
+      margin: 1rem 0rem;
+    }
+
+    .Intro-img {
+      width: 40%;
+      height: auto;
+    }
+  }
+}
+
+/* ______________ Mid-size tablet Screen Size */
+@media (max-width: 900px) {
+  .Intro {
+    // Spacing
+    text-align: center;
+    padding: 12rem 1rem 10rem;
+  }
+}
+
+/* ______________  iPad / Tablet Screen size */
+@media (max-width: 868px) {
+  .Intro {
+    // Spacing
+    text-align: center;
+    padding: 12rem 1rem 10rem;
+    .Intro-name {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(med-large);
+      font-weight: weight(medium);
+    }
+
+    .Intro-img {
+      width: 50%;
+      height: auto;
+    }
+
+    .Intro-job {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(regular);
+      font-weight: weight(medium);
+      color: $primary-color;
+      // Spacing
+      margin: 1rem 0rem;
+      // Spacing
+    }
+
+    .Intro-details {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(medium);
+      font-weight: weight(med-low);
+
+      // Spacing
+      margin: 1rem 0rem;
+    }
+  }
+}
+
+/* ______________ Larger Phones Screen size */
+@media (max-width: 680px) {
+  .Intro {
+    text-align: center;
+    padding: 7rem 1rem 10rem;
+
+    .Intro-name {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(med-large);
+      font-weight: weight(medium);
+
+      margin: 5rem 0 1rem 0;
+      // padding: 5rem 0;
+    }
+
+    .Intro-job {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(medium);
+      font-weight: weight(medium);
+      color: $primary-color;
+      // Spacing
+      margin: 1rem 0rem;
+    }
+
+    .Intro-img {
+      width: 70%;
+      height: auto;
+    }
+
+    .Intro-details {
+      // Font/ Text Styling
+      font-family: $Poppins;
+      font-size: size(small);
+      font-weight: weight(med-low);
+
+      // Spacing
+      margin: 1rem 0 2rem 0;
+    }
+  }
+
+  /* ______________ Smaller Phones Screen size */
+  @media (max-width: 380px) {
+    .Intro {
+      text-align: center;
+      padding: 5rem 1rem 10rem;
+
+      .Intro-name {
+        // Font/ Text Styling
+        font-family: $Poppins;
+        font-size: size(regular);
+        font-weight: weight(medium);
+
+        // Spacing
+        margin: 5rem 0 1rem 0;
+        // padding: 5rem 0;
+      }
+
+      .Intro-job {
+        // Font/ Text Styling
+        font-family: $Poppins;
+        font-size: size(small);
+        font-weight: weight(medium);
+        color: $primary-color;
+        // Spacing
+        margin: 1rem 0rem;
+      }
+
+      .Intro-img {
+        width: 70%;
+        height: auto;
+      }
+
+      .Intro-details {
+        // Font/ Text Styling
+        font-family: $Poppins;
+        font-size: size(xtra-small);
+        font-weight: weight(med-low);
+
+        // Spacing
+        margin: 1rem 0rem;
+      }
+    }
+  }
+}
+/* __ C a r d s - S e c t i o n ______________________________ */
+
+.Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  padding: 10rem 0;
+
+  background: $whiteBG;
+}
+
+.Card {
+  // Colors
+  color: $white;
+  background: $whiteBG;
+  box-shadow: $shadow3;
+
+  text-align: left;
+  // Display
+  padding: 8rem 16rem;
+  margin: 10rem 4rem;
+
+  border-radius: 15px;
+}
+
+.Card-1 {
+  background: url("/images/Desktop3.jpg");
+  background-size: cover;
+}
+
+.Card-2 {
+  background: url("/images/Desktop3.jpg");
+  background-size: cover;
+}
+
+.Card-3 {
+  background: url("/images/Desktop3.jpg");
+  background-size: cover;
+}
+
+.Card-text-container {
+  padding: 1rem 2rem;
+  margin: 0;
+}
+
+.Card-title {
+  // font-family: $Playfair;
+  font-size: size(medium);
+  letter-spacing: 1px;
+  color: $black2;
+}
+
+.Card-description {
+  font-size: size(xtra-small);
+  letter-spacing: 1px;
+  color: $primary-color;
+}
+
+.Card-container {
+  background: $whiteBG;
+  border-radius: 20px;
+
+  box-shadow: $shadow3;
+
+  padding: 2rem;
+  transform: translateY(80%) translateX(80%);
+}
+
+.Button-div {
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-start;
+
+  padding: 0 1rem;
+  margin: 1rem 0 0 0;
+}
+
+.Card-button-link {
+  color: $black2;
+
+  text-decoration: none;
+  text-align: center;
+  font-size: size(small);
+
+  padding: 8px 13px;
+  margin: 0 1rem 0 0;
+}
+
+/* ____________________________ Laptop / iPad Pro Screen Size */
+@media (max-width: 1500px) {
+  .Cards {
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    padding: 3rem 0;
+  }
+  .Card {
+    // Spacing
+    padding: 8rem 16rem;
+    margin: 10rem 4rem;
+  }
+
+  .Card-container {
+    border-radius: 20px;
+    padding: 2rem;
+    transform: translateY(80%) translateX(80%);
+  }
+
+  .Card-text-container {
+    padding: 1rem 2rem;
+    margin: 0;
+  }
+
+  .Button-div {
+    padding: 0 1rem;
+    margin: 1rem 0 0 0;
+    font-size: size(small);
+
+    .Card-button-link {
+      padding: 10px 15px;
+      margin: 0 1rem 0 0;
+    }
+  }
+}
+/* ____________________________ Mid-size tablet Screen Size */
+@media (max-width: 1100px) {
+  .Cards {
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    padding: 3rem 0;
+  }
+  .Card {
+    // Spacing
+    padding: 5rem 8rem;
+    margin: 8rem 4rem;
+  }
+
+  .Card-container {
+    border-radius: 20px;
+    padding: 2rem;
+    transform: translateY(60%) translateX(40%);
+  }
+
+  .Card-text-container {
+    padding: 1rem 2rem;
+    margin: 0;
+  }
+
+  .Card-title {
+    font-size: size(medium);
+  }
+
+  .Card-description {
+    font-size: size(small);
+  }
+
+  .Button-div {
+    margin: 0 1rem;
+
+    .Card-button-link {
+      font-size: size(medium);
+
+      padding: 10px 15px;
+      margin: 0 1rem 0 0;
+    }
+  }
+}
+
+/* ____________________________  iPad / Tablet Screen size */
+@media (max-width: 868px) {
+  .Cards {
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+
+    padding: 8rem 4rem;
+  }
+
+  .Card-1 {
+    background: url("/images/Phone3.jpg");
+    background-size: cover;
+  }
+
+  .Card-2 {
+    background: url("/images/Phone2.jpg");
+    background-size: cover;
+  }
+
+  .Card-3 {
+    background: url("/images/Phone3.jpg");
+    background-size: cover;
+  }
+
+  .Card {
+    // Spacing
+    padding: 15rem 4px;
+    margin: 6rem 4rem;
+  }
+
+  .Card-container {
+    border-radius: 20px;
+
+    transform: translateY(110%) translateX(5%);
+    padding: 2rem;
+  }
+
+  .Card-text-container {
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .Card-title {
+    font-size: size(regular);
+    font-weight: weight(regular);
+  }
+
+  .Card-description {
+    font-size: size(small);
+    font-weight: weight(regular);
+  }
+
+  .Button-div {
+    list-style: none;
+
+    display: flex;
+    justify-content: flex-start;
+
+    margin: 2rem 0 0 2rem;
+
+    .Card-button-link {
+      text-decoration: none;
+      text-align: center;
+      font-size: 30px;
+
+      padding: 10px 15px;
+      margin: 0 1rem 0 0;
+    }
+  }
+}
+
+/* ____________________________ Larger Phones Screen size */
+@media (max-width: 680px) {
+  .Cards {
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding: 3rem 0;
+  }
+
+  .Card {
+    // Spacing
+    padding: 10rem 4px;
+    margin: 10rem 4rem 5rem 4rem;
+  }
+
+  .Card-container {
+    border-radius: 20px;
+
+    transform: translateY(110%) translateX(5%);
+
+    padding: 2rem 1rem;
+  }
+
+  .Card-title {
+    font-size: size(small);
+    font-weight: weight(medium);
+  }
+
+  .Card-description {
+    font-size: size(xtra-small);
+    font-weight: weight(regular);
+  }
+
+  .Button-div {
+    margin: 0;
+
+    .Card-button-link {
+      font-size: size(small);
+
+      padding: 10px 15px;
+      margin: 0 0 0 1rem;
+    }
+  }
+}
+
+/* ____________________________ Smaller Phones Screen size */
+@media (max-width: 380px) {
+  .Cards {
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+
+    padding: 3rem 0 6rem 0;
+  }
+
+  .Card {
+    // Spacing
+    padding: 5rem 4px;
+    margin: 10rem 2rem 5rem 2rem;
+    // Text Layout
+  }
+
+  .Card-container {
+    transform: translateY(80%) translateX(5%);
+    padding: 2rem 10px;
+  }
+
+  .Card-title {
+    font-size: size(small);
+    font-weight: weight(medium);
+  }
+
+  .Button-div {
+    margin: 0;
+
+    .Card-button-link {
+      font-size: size(small);
+
+      padding: 10px 15px;
+      margin: 0 0 0 1rem;
+    }
+  }
+}
+
+/* __ A b o u t - S e c t i o n ____________________________________________________________________ */
+
+.About {
+  background: $black;
+  color: $white;
+
+  padding: 10rem 3rem;
+
+  text-align: center;
+}
+
+.About-title {
+  font-size: size(regular);
+}
+
+.About-description {
+  font-size: size(small);
+
+  // margin: 0 10rem;
+}
+
+.About-img {
+  margin: 2rem;
+  width: 20%;
+  height: auto;
+}
+
+/* ____________________________ Laptop / iPad Pro Screen Size */
+@media (min-width: 1600px) {
+  .About-description {
+    margin: 0 10rem;
+  }
+}
+@media (max-width: 1500px) {
+  .About-title {
+    font-size: size(regular);
+  }
+
+  .About-description {
+    font-size: size(small);
+  }
+  .About-img {
+    margin: 2rem;
+    width: 30%;
+    height: auto;
+  }
+}
+
+/* ____________________________ Mid-size tablet Screen Size */
+@media (max-width: 868px) {
+  .About {
+    padding: 15rem 3rem;
+  }
+
+  .About-title {
+    font-size: size(regular);
+  }
+
+  .About-description {
+    font-size: size(small);
+    font-weight: weight(low);
+  }
+
+  .About-img {
+    margin: 2rem;
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (max-width: 680px) {
+  .About-img {
+    margin: 2rem;
+    width: 70%;
+    height: auto;
+  }
+}
+/* ____________________________ Smaller Phones Screen size */
+@media (max-width: 380px) {
+  .About {
+    padding: 10rem 2rem;
+  }
+
+  .About-title {
+    font-size: size(medium);
+  }
+
+  .About-description {
+    font-size: size(xtra-small);
+  }
+
+  .About-img {
+    margin: 2rem;
+    width: 70%;
+    height: auto;
+  }
+}
+
+/* __ C o n t a c t - S e c t i o n ____________________________________________________________  */
+
+.Contact {
+  background: $whiteBG;
+
+  border-radius: 20px;
+  padding: 10rem 3rem 10rem 3rem;
+
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.Contact-title {
+  font-size: size(regular);
+}
+
+.Contact-description {
+  font-size: size(small);
+  font-weight: weight(med-low);
+}
+
+.Contact-list_div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.Contact-icons {
+  color: inherit;
+  font-size: size(regular);
+  padding: 0 1rem 0 0;
+
+  .fa-instagram {
+    color: $insta;
+  }
+
+  .fa-linkedin {
+    color: $linkeden;
+  }
+
+  .fa-github-square {
+    color: $black2;
+  }
+}
+
+/* ____________________________ Laptop / iPad Pro Screen Size / Mid-size tablet Screen Size */
+@media (max-width: 1100px) {
+  .Contact {
+    padding: 10rem 1rem 20rem 1rem;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .Contact-icons {
+    padding: 1rem 1rem 0 0;
+  }
+
+  .Contact-description {
+    font-weight: weight(med-low);
+  }
+}
+
+@media (max-width: 868px) {
+  .Contact {
+    padding: 10rem 1rem 20rem 1rem;
+  }
+  .Contact-title {
+    font-size: size(regular);
+  }
+
+  .Contact-description {
+    font-weight: weight(med-low);
+    margin: 0 0 1rem 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .Contact {
+    padding: 10rem 1rem 20rem 1rem;
+  }
+  .Contact-title {
+    font-size: size(medium);
+    margin: 0 0 1rem 0;
+  }
+
+  .Contact-description {
+    font-size: size(xtra-small);
+    font-weight: weight(med-low);
+    margin: 0 0 1rem 0;
+  }
+
+  // .Contact-list_div {
+  //  align-items: center;
+  // }
+}

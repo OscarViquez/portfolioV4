@@ -1,0 +1,81 @@
+/* Google Font API ______________________________ */
+@import url("https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Typography ______________________________ */
+
+//font-weights
+$font-weights: (
+  "low": 200,
+  "med-low": 300,
+  "regular": 400,
+  "medium": 550,
+  "bold": 700,
+);
+
+//font-size
+$font-size: (
+  "xx-small": 14px,
+  "xtra-small": 16px,
+  "small": 20px,
+  "medium": 25px,
+  "regular": 35px,
+  "med-large": 45px,
+  "large": 55px,
+  "super-large": 65px,
+  "mega-large": 75px,
+);
+
+//fonts
+
+$Fauna: "Fauna One", serif;
+$Playfair: "Playfair Display", serif;
+$Poppins: "Poppins", sans-serif;
+
+//font-functions
+@function weight($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
+
+@function size($weight-name) {
+  @return map-get($font-size, $weight-name);
+}
+
+// Color
+$primary-color: #713eff;
+
+$purple1: #3500d3;
+$purple2: #7c57eb;
+$purple3: #ecf0f3;
+$purple4: #ccbdfa;
+
+$white: rgb(245, 245, 245);
+$whiteBG:  #f8f8f8;
+$black: #1b1b1b;
+$black2: #2b2b2b;
+
+// color to de-bug with
+$red: #e98585;
+$yellow: #e9da85;
+$green: #8ae985;
+$blue: #85b5e9;
+
+
+// Color for icons
+$insta: #bc2a8d;
+$linkeden: #0e76a8;
+$github:#fafafa;
+
+$shadow: 15px 10px 5px -10px rgba(30, 30, 60, 0.4);
+$shadow2: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+$shadow3: 15px 10px 5px -10px rgba(30, 30, 60, 0.4);
+
+// 1500px
+/* ____________________________ Laptop / iPad Pro Screen Size */
+// 900px
+/* ____________________________ Mid-size tablet Screen Size */
+// 868px
+/* ____________________________  iPad / Tablet Screen size */
+// 680px
+/* ____________________________ Larger Phones Screen size */
+// 
+/* ____________________________ Smaller Phones Screen size */
