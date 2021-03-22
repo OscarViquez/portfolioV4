@@ -1,5 +1,6 @@
 @import './base';
 
+// Icons
 .fa-instagram{
     color: $insta;
 }
@@ -8,6 +9,35 @@
     color: $linkeden;
 }
 
+.fa-instagram{
+    color: $insta;
+}
+
+.fa-html5 {
+    color: $html;
+}
+
+.fa-css3-alt {
+    color: $css;
+}
+.fa-bootstrap {
+    color: $primary-color;
+}
+.fa-js-square {
+    color: $js;
+}
+.fa-php {
+    color: $php;
+}
+
+.fa-react{
+    color: $react;
+}
+
+.fa-sass {
+    color: $scss;
+}
+// Hover
 .Card-button:hover {
     a {
         color: $purple2;

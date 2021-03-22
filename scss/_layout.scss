@@ -3,8 +3,14 @@
 html {
   scroll-behavior: smooth;
   background: $whiteBG;
+  text-decoration: none;
+  list-style: none;
 }
 
+* {
+  text-decoration: none;
+  list-style: none;
+}
 /* __ I n t r o - S e c t i o n ______________________________ */
 
 .Intro {
@@ -94,7 +100,7 @@ html {
 @media (max-width: 1250px) {
   .Intro {
     // Spacing
-    text-align: center;
+
     padding: 12rem 1rem 5rem;
 
     .Intro-name {
@@ -135,7 +141,7 @@ html {
 @media (max-width: 900px) {
   .Intro {
     // Spacing
-    text-align: center;
+
     padding: 12rem 1rem 10rem;
   }
 }
@@ -474,6 +480,10 @@ html {
 
     transform: translateY(110%) translateX(5%);
     padding: 2rem;
+
+    .Contact-icons {
+      padding: 0 1rem 1rem 0;
+    }
   }
 
   .Card-text-container {
@@ -599,8 +609,9 @@ html {
 .About {
   background: $black;
   color: $white;
+  letter-spacing: 2px;
 
-  padding: 10rem 3rem;
+  padding: 10rem 15rem;
 
   text-align: center;
 }
@@ -610,6 +621,7 @@ html {
 }
 
 .About-description {
+  font-weight: weight(med-low);
   font-size: size(small);
 
   // margin: 0 10rem;
@@ -692,6 +704,7 @@ html {
   }
 }
 
+
 /* __ C o n t a c t - S e c t i o n ____________________________________________________________  */
 
 .Contact {
@@ -716,7 +729,7 @@ html {
 
 .Contact-list_div {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
@@ -724,18 +737,6 @@ html {
   color: inherit;
   font-size: size(regular);
   padding: 0 1rem 0 0;
-
-  .fa-instagram {
-    color: $insta;
-  }
-
-  .fa-linkedin {
-    color: $linkeden;
-  }
-
-  .fa-github-square {
-    color: $black2;
-  }
 }
 
 /* ____________________________ Laptop / iPad Pro Screen Size / Mid-size tablet Screen Size */

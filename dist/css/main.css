@@ -19,6 +19,38 @@
   color: #0e76a8;
 }
 
+.fa-instagram {
+  color: #bc2a8d;
+}
+
+.fa-html5 {
+  color: #ce4040;
+}
+
+.fa-css3-alt {
+  color: #419ec9;
+}
+
+.fa-bootstrap {
+  color: #713eff;
+}
+
+.fa-js-square {
+  color: #ecd134;
+}
+
+.fa-php {
+  color: #9993f1;
+}
+
+.fa-react {
+  color: #61dbfb;
+}
+
+.fa-sass {
+  color: #d36cb2;
+}
+
 .Card-button:hover a {
   color: #7c57eb;
 }
@@ -251,6 +283,13 @@
 html {
   scroll-behavior: smooth;
   background: #f8f8f8;
+  text-decoration: none;
+  list-style: none;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
 }
 
 /* __ I n t r o - S e c t i o n ______________________________ */
@@ -320,7 +359,6 @@ html {
 /* ____________________________ iPad Pro Screen Size */
 @media (max-width: 1250px) {
   .Intro {
-    text-align: center;
     padding: 12rem 1rem 5rem;
   }
   .Intro .Intro-name {
@@ -350,7 +388,6 @@ html {
 /* ______________ Mid-size tablet Screen Size */
 @media (max-width: 900px) {
   .Intro {
-    text-align: center;
     padding: 12rem 1rem 10rem;
   }
 }
@@ -662,6 +699,9 @@ html {
             transform: translateY(110%) translateX(5%);
     padding: 2rem;
   }
+  .Card-container .Contact-icons {
+    padding: 0 1rem 1rem 0;
+  }
   .Card-text-container {
     padding: 2rem;
     margin: 0;
@@ -778,7 +818,8 @@ html {
 .About {
   background: #1b1b1b;
   color: whitesmoke;
-  padding: 10rem 3rem;
+  letter-spacing: 2px;
+  padding: 10rem 15rem;
   text-align: center;
 }
 
@@ -787,6 +828,7 @@ html {
 }
 
 .About-description {
+  font-weight: 300;
   font-size: 20px;
 }
 
@@ -887,8 +929,8 @@ html {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -898,18 +940,6 @@ html {
   color: inherit;
   font-size: 35px;
   padding: 0 1rem 0 0;
-}
-
-.Contact-icons .fa-instagram {
-  color: #bc2a8d;
-}
-
-.Contact-icons .fa-linkedin {
-  color: #0e76a8;
-}
-
-.Contact-icons .fa-github-square {
-  color: #2b2b2b;
 }
 
 /* ____________________________ Laptop / iPad Pro Screen Size / Mid-size tablet Screen Size */
