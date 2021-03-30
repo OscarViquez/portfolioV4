@@ -273,6 +273,68 @@ html {
     }
   }
 }
+
+/* __ P r o j e c t - T i t l e ______________________________ */
+
+.Project {
+  padding: 12rem 0 0 0;
+  h1 {
+    font-size: size(regular);
+    text-align: center;
+  }
+}
+
+// ipad pro
+@media (max-width: 1500px) {
+  .Project {
+    padding: 15rem 0 0 0;
+    h1 {
+      font-size: size(regular);
+    }
+  }
+}
+
+// //mid-size tablets
+// @media (max-width: 1100px) {
+//   .Project {
+//     padding: 15rem 0 0 0;
+//     h1 {
+//       font-size: size(regular);
+//     }
+//   }
+// }
+
+// ipad
+@media (max-width: 860px) {
+  .Project {
+    padding: 15rem 0 0 0;
+    h1 {
+      font-size: size(regular);
+    }
+  }
+}
+
+// larger phones (Pixel 2 XL)
+@media (max-width: 680px) {
+  .Project {
+    padding: 8rem 0 0 0;
+    h1 {
+      font-size: size(regular);
+    }
+  }
+}
+
+// (iPhone SE, iPhone X, Galaxy S10)
+@media (max-width: 375px) {
+  .Project {
+    padding: 8rem 0 0 0;
+    h1 {
+      font-size: size(medium);
+    }
+  }
+}
+
+
 /* __ C a r d s - S e c t i o n ______________________________ */
 
 .Cards {
@@ -280,7 +342,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-flow: column nowrap;
-  padding: 10rem 0;
+  padding: 0 0 10rem 0;
 
   background: $whiteBG;
 }
@@ -300,7 +362,7 @@ html {
 }
 
 .Card-1 {
-  background: url("/images/Desktop3.jpg");
+  background: url("/images/RodpaintDeskComp.jpg");
   background-size: cover;
 }
 
@@ -340,6 +402,26 @@ html {
 
   padding: 2rem;
   transform: translateY(80%) translateX(80%);
+}
+
+.Card-1_container {
+  background: $black2;
+  color: $white;
+
+  div {
+    color: $white;
+    h2 {
+      color: inherit;
+    }
+
+    p {
+      color: $white;
+      font-weight: weight(regular);
+    }
+    a {
+      color: inherit;
+    }
+  }
 }
 
 .Button-div {
@@ -455,7 +537,7 @@ html {
   }
 
   .Card-1 {
-    background: url("/images/Phone3.jpg");
+    background: url("/images/RodpaintPhoneComp.jpg");
     background-size: cover;
   }
 
@@ -572,7 +654,7 @@ html {
     justify-content: center;
     flex-flow: column wrap;
 
-    padding: 3rem 0 6rem 0;
+    padding: 0rem 0 6rem 0;
   }
 
   .Card {
@@ -703,7 +785,6 @@ html {
     height: auto;
   }
 }
-
 
 /* __ C o n t a c t - S e c t i o n ____________________________________________________________  */
 
