@@ -602,28 +602,6 @@ html {
           transform: translateY(80%) translateX(80%);
 }
 
-.Card-1_container {
-  background: #2b2b2b;
-  color: whitesmoke;
-}
-
-.Card-1_container div {
-  color: whitesmoke;
-}
-
-.Card-1_container div h2 {
-  color: inherit;
-}
-
-.Card-1_container div p {
-  color: whitesmoke;
-  font-weight: 400;
-}
-
-.Card-1_container div a {
-  color: inherit;
-}
-
 .Button-div {
   list-style: none;
   display: -webkit-box;
@@ -746,7 +724,7 @@ html {
     padding: 8rem 4rem;
   }
   .Card-1 {
-    background: url("/images/RodpaintPhoneComp.jpg");
+    background: url("/images/RodPhone.png");
     background-size: cover;
   }
   .Card-2 {
@@ -928,7 +906,7 @@ html {
 }
 
 /* ____________________________ Mid-size tablet Screen Size */
-@media (max-width: 868px) {
+@media (max-width: 1250px) {
   .About {
     padding: 15rem 3rem;
   }

@@ -404,25 +404,25 @@ html {
   transform: translateY(80%) translateX(80%);
 }
 
-.Card-1_container {
-  background: $black2;
-  color: $white;
+// .Card-1_container {
+//   background: $black2;
+//   color: $white;
+// 
+//   div {
+//     color: $white;
+//     h2 {
+//       color: inherit;
+//     }
 
-  div {
-    color: $white;
-    h2 {
-      color: inherit;
-    }
-
-    p {
-      color: $white;
-      font-weight: weight(regular);
-    }
-    a {
-      color: inherit;
-    }
-  }
-}
+//     p {
+//       color: $white;
+//       font-weight: weight(regular);
+//     }
+//     a {
+//       color: inherit;
+//     }
+//   }
+// }
 
 .Button-div {
   list-style: none;
@@ -537,7 +537,7 @@ html {
   }
 
   .Card-1 {
-    background: url("/images/RodpaintPhoneComp.jpg");
+    background: url("/images/RodPhone.png");
     background-size: cover;
   }
 
@@ -737,7 +737,7 @@ html {
 }
 
 /* ____________________________ Mid-size tablet Screen Size */
-@media (max-width: 868px) {
+@media (max-width: 1250px) {
   .About {
     padding: 15rem 3rem;
   }
